@@ -1,0 +1,40 @@
+const navdata = [
+    {
+        name:'订单管理',
+        path:'/home/order',
+        children:[
+            {
+                name:'贷款订单',
+                path:'/home/order/dk'
+            },
+            {
+                name:'转单订单',
+                path:'/home/order/zd'
+            },
+            {
+                name:'保险订单',
+                path:'/home/order/bx'
+            }
+        ]
+    },
+    {
+        name:'财务管理',
+        path:'/home/cw',
+        children:[
+            {
+                name:'财务管理1',
+                path:'/home/cw/dk'
+            },
+            {
+                name:'财务管理2',
+                path:'/home/cw/zd'
+            },
+            {
+                name:'财务管理3',
+                path:'/home/cw/bx'
+            }
+        ]
+    }
+]
+
+export default navdata;

@@ -1,0 +1,16 @@
+.list-wrap{
+    .ant-radio-button-wrapper:not(:first-child)::before{
+        display: none;
+    }
+    .ant-radio-button-wrapper{
+        border:none;
+        border-radius:50px;
+        background: #F7F7F7;
+        width:70px;
+        height:30px;
+        line-height:30px;
+        padding:0;
+        text-align:center;
+        margin:0 5px;
+    }
+}

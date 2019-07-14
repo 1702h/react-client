@@ -1,0 +1,89 @@
+.loginWrap{
+    background-image: url(../images/login-bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+
+.loginWrap-left{
+    float: left;
+    padding-top:200px;
+    h2{
+        font-size: 106px;
+        color: #FFFFFF;
+        letter-spacing: 5.25px;
+        line-height: 98px;
+    }
+    p{
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.83px;
+        line-height: 59px;
+    }
+}
+
+.loginWrap-right{
+    float: left;
+    padding: 200px 0 200px 40px;
+    .login-box{
+        background: #FFFFFF;
+        box-shadow: 0px 2px 54px 0px rgba(0,21,30,0.16);
+        border-radius: 8px;
+        width: 460px;
+        height: 530px;
+        padding: 76px;
+        .login-logo{
+            text-align: center;
+            .logo-icon{
+                font-size: 100px;
+            }
+        }
+        .checkcodebtn{
+            width: 88px;
+            height: 34px;
+            display: inline-block;
+            border: 1px solid #E3E0E0;
+            font-size: 16px;
+            color: #FF5065;
+            text-align: center;
+            line-height: 34px;
+            &.active{
+                color:#333;
+            }
+        }
+    }
+}
+
+.login-list{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    li{
+        width: 100%;
+        list-style: none;
+        border-bottom: 1px solid #eee;
+        height: 50px;
+        line-height: 50px;
+        input{
+            border:none;
+            background: none;
+            outline: none;
+        }
+    }
+    
+}
+
+.login-btn{
+    background: none;
+    border:none;
+    outline: none;
+    margin-top:20px;
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    background: #7B1AD9;
+    border-radius: 100px;
+}
